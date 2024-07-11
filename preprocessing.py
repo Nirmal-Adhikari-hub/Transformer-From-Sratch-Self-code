@@ -78,7 +78,7 @@ def _k_tunnel(s):
     return j2hcj(h2j(s))
 
 
-def load_data():
+def load_valid_sentences():
     with open(english_valid_vocab_sentences_path, 'r', encoding='utf-8') as f:
         english_lines = f.readlines()[:max_lines_import]
 
